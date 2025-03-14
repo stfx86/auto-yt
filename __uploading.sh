@@ -1,0 +1,2 @@
+ python3 upload.py --file="1S.mp4" --title="firstV"  --description="A fun travel vlog from my recent trip!" --category=22   --keywords="travel, vlog, adventure" --privacyStatus=public                                       
+ 
