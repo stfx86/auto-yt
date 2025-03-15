@@ -12,7 +12,7 @@ turn=int
 
 
 def get_shorts_urls_from_channel(channel_url, output_file):
-    # Run yt-dlp with filters to get only Shorts (videos under 60 seconds)
+    
     result = subprocess.run(
         ["yt-dlp", "-J", "--flat-playlist", "--match-filter", "duration < 80", channel_url], 
         capture_output=True, text=True
